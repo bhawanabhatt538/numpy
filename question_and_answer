@@ -1,0 +1,11 @@
+what is float?
+what is index?
+
+x = np.array([1, 2, 4, 7, 0])
+print(np.ediff1d(x, to_begin=[0, 0], to_end=[100]))
+print(np.append(np.insert(np.diff(x),0,[0,0]),100))
+
+
+#
+print(np.random.choice(x,p=[0.3, 0.5,0.2])) ques= what is p meaning
+
